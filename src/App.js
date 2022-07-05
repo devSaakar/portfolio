@@ -7,12 +7,12 @@ const App = () => {
   return (
     <div className='app__container'>
       <Navbar />
-      {/* <Header />
+      <Header />
       <About />
       <Work />
       <Skills />
       <Testimonials />
-      <Footer /> */}
+      <Footer />
     </div>
   )
 }
