@@ -18,7 +18,7 @@
     min-height: 100vh;
   
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
   
   .app__flex {
@@ -187,5 +187,9 @@
     .copyright {
       padding: 2rem;
     }
+  }
+
+  .active{
+    background-color: $secondary-color !important;
   }
   

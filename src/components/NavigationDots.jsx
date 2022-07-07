@@ -7,10 +7,9 @@ const NavigationDots = ({ active }) => {
       {routes.map((link) => {
         return (
           <a
-            className="app__link"
             href={`#${link}`}
             key={link}
-            className={`app__navigation-dot ${active && "active"}`}
+            className={`app__navigation-dot ${active===link ? "active":''}`}
           />
         );
       })}
