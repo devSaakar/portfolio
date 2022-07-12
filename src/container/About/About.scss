@@ -3,6 +3,10 @@
     flex: 1;
     width: 100%;
     flex-direction: column;
+
+    .head-text{
+        padding: 2rem 2rem;
+    }
 }
 
 .app__profiles{
